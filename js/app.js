@@ -486,12 +486,7 @@
      ========================================================================== */
 
   function setupMobileHero() {
-    if (!isMobile) return;
-    const heroImg = document.querySelector(".hero-banner-img");
-    if (heroImg) {
-      heroImg.src = "frames-mobile/frame_0001.jpg";
-      heroImg.style.objectFit = "cover";
-    }
+    // Mobile hero image handled by <picture> element in HTML
   }
 
   /* ==========================================================================
