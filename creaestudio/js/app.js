@@ -29,7 +29,7 @@
   let loadedCount = 0;
 
   function framePath(i) {
-    return `frames/frame_${String(i).padStart(4, "0")}.jpg`;
+    return `/creaestudio/frames/frame_${String(i).padStart(4, "0")}.jpg`;
   }
 
   function preloadFrames() {
